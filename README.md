@@ -3,52 +3,17 @@
 
 Ebac shop: http://lojaebac.ebaconline.art.br/
 
-## Clonando e executando em sua máquina
+### Sobre o Projeto
+  Um teste automizado utilizando o cypress, com o cenario de um usuário já cadastrado na plataforma acessando o sua conta e adicionando itens ao carrinho de compras, e acessando seu carrinho para concluir seu pedido de compra.
 
-### Pré-requisito:
-
--Node.js - Você encontra em: https://nodejs.org/en/
-
--Visual Studio Code ou qualquer editor de texto - você encontra em: https://code.visualstudio.com/download
-
--Git: você encontra em: https://git-scm.com/downloads
+### Estratégia
+feito tudo dentro de um unico cenario desde o login á finalização da compra, utilizando a massa de dados no fixture e support.
+todo o cenario tem comentarios para indentificação de passo a passo, mas como foi feito de forma linear está bem intuitivo ao qual comando faz qual ação.
 
 
-Via terminal, rode os seguintes comandos:
-```  
-git clone https://github.com/EBAC-QE/testes-e2e-ebac-shop.git
-```
-```
-cd testes-e2e-ebac-shop
-```
-
-#### Para instalar as dependencias:
-```
-npm install 
-```
-
-#### Para executar em moodo Headlesss via console:
-```
-npx cypress run
-```
-
-#### Para executar via Dashboard:
-```
-npx cypress open 
-```
-Após abrir o dasboard, clique na opção "Running integration tests" para rodar todos os testes.
-
-
-### Bibliotecas de apoio:
--Cypress: Framework de automação: https://cypress.io/
-
--Faker: Biblioteca para geração de massa de dados: https://www.npmjs.com/package/faker
-
-
-### Bom exercício ;) 
-Fábio & José Ernesto
-Qualidade de software
-
-
-
-
+ESTE PROJETO FOI CLONADO DA PÁGINA DA EBAC, OS ARQUIVOS ALTERADOS FORÃO:
+ . exercicio-e2e // que está dentro de integration
+ . README
+ E ARQUIVOS CRIADOS:
+ . products // na pasta de fixtures
+ . product.dados // na pasta page_objets dentro de support

@@ -1,0 +1,29 @@
+[
+    {
+        "productName": "Atlas Fitness Tank",
+        "size": "L",
+        "color": "Blue",
+        "qtn": "2"
+    },
+
+    {
+        "productName": "Deion Long-Sleeve",
+        "size": "L",
+        "color": "Black",
+        "qtn": "1"
+    },
+
+    {
+        "productName": "Electra Bra Top",
+        "size": "M",
+        "color": "Gray",
+        "qtn": "1"
+    },
+
+    {
+        "productName": "Apollo Running Short",
+        "size": "34",
+        "color": "Black",
+        "qtn": "2"
+    }
+]
