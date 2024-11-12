@@ -11,9 +11,9 @@ feito tudo dentro de um unico cenario desde o login á finalização da compra, 
 todo o cenario tem comentarios para indentificação de passo a passo, mas como foi feito de forma linear está bem intuitivo ao qual comando faz qual ação.
 
 
-ESTE PROJETO FOI CLONADO DA PÁGINA DA EBAC, OS ARQUIVOS ALTERADOS FORÃO:
- . exercicio-e2e // que está dentro de integration
- . README
- E ARQUIVOS CRIADOS:
- . products // na pasta de fixtures
- . product.dados // na pasta page_objets dentro de support
+ESTE PROJETO FOI CLONADO DA PÁGINA DA EBAC, OS ARQUIVOS ALTERADOS FORÃO: <br/>
+ . exercicio-e2e // que está dentro de integration <br/>
+ . README <br/>
+ E ARQUIVOS CRIADOS: <br/>
+ . products // na pasta de fixtures <br/>
+ . product.dados // na pasta page_objets dentro de support <br/>
