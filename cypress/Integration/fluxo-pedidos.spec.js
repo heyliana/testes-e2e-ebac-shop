@@ -60,7 +60,8 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         cy.get('.checkout-button').click() /* acessando a  página de checkout */
         cy.get('#terms').click() /* aceitando o termos da página */
         cy.get('#place_order').click() /* clicando no botão 'Finalizar Compra' */
-        cy.get('.woocommerce-notice').should('contain', 'Seu pedido foi recebido.') /* confirmação de compra */
+        cy.wait = 2000 /* pausa para carregamento da página */
+        cy.get('.woocommerce-notice').should('contain', 'Obrigado. Seu pedido foi recebido.') /* confirmação de compra */
 
     });
     
